@@ -26,3 +26,15 @@ Git-hitched documents a shared site gate and email-based invite lookup; these ar
 MattiasHenders documents NEXT_PUBLIC_AIRTABLE_TOKEN and NEXT_PUBLIC_PASSWORD configuration. Do not adopt that secret-handling pattern: server credentials and authentication secrets must remain server-side. Client-visible configuration is not a private guest-data boundary.
 
 Topic pages classify projects; they do not certify a stack, security, payment eligibility or production completeness.
+
+## Destination logistics candidates
+
+README and metadata review, 2026-09-20; none installed or performance-tested.
+
+| Repository | Verified upstream description | Adoption assessment |
+| --- | --- | --- |
+| [JacobStephens2/wedding-platform](https://github.com/JacobStephens2/wedding-platform) | PHP/MySQL; travel content covers parking, transport and hotel blocks; group RSVP and admin seating | Workflow reference. GitHub detects MIT. README does not prove live travel inventory or specialist logistics engines. |
+| [Emanuele-Sgroi/My-Wedding-Invitation-Website](https://github.com/Emanuele-Sgroi/My-Wedding-Invitation-Website) | Next.js/Firebase; multilingual invitation, logistics content and family RSVP relationships | Reference only; custom licence requires review. Documented NEXT_PUBLIC_ADMIN_ACCESS_PASSWORD must not be reused as a security boundary. |
+| [sotomaque/wedding-website](https://github.com/sotomaque/wedding-website) | Turborepo, Next.js, Prisma/Supabase, Clerk; per-wedding administration and trip planner | Closest documented stack candidate; no licence detected in repository metadata. Verify permission, code and tenant isolation before copying. README claims are not independently validated test results. |
+
+None of these README reviews establishes a working real-time flight feed, high-load capacity, worldwide payment eligibility or safe concurrent inventory allocation. WHYNOT requirements are specified independently in [destination logistics](DESTINATION_LOGISTICS.md).
