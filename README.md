@@ -26,6 +26,7 @@ The GitHub repository identifier remains `GITCHAT10/mig-wedding-hub`; WHYNOT is 
 
 - [Brand identity](docs/BRAND.md)
 - [Product and architecture blueprint](docs/PLATFORM_BLUEPRINT.md)
+- [Consultant workspace and intake contract](docs/CONSULTANT_WORKSPACE.md)
 - [Destination logistics specification](docs/DESTINATION_LOGISTICS.md)
 - [Reference component register](docs/REFERENCE_COMPONENTS.md)
 - [Delivery milestones and acceptance checks](docs/DELIVERY_PLAN.md)
